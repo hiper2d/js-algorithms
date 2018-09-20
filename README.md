@@ -52,7 +52,7 @@ Implement class `Sorter` with next methods:
   console.log(sorter.toArray()); // [3, 2, 1]
 ```
 
-Write your code in `src/index.js.
+Write your code in `src/sorter.js.
 *Be sure, that all tests are positive. That means you cannot catch any error in tests.*
 
 
