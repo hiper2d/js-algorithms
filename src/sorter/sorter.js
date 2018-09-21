@@ -4,13 +4,8 @@ class Sorter {
         let array = [];
         let comparator = (a, b) => a - b;
 
-        this.getArray = function() {
-            return array;
-        };
-
-        this.setArray = function(arr) {
-            array = arr;
-        };
+        this.getArray = () => array;
+        this.setArray = arr => array = arr;
 
         this.getComparator = function() {
             return comparator;
@@ -39,10 +34,10 @@ class Sorter {
 
     sort(indices) {
         let originalArray = this.getArray();
-        let arrToSort = indices.map(i => originalArray[i]);
-        let mapper = (value, i) => indices.includes(i) ? arrToSort.shift() : value;
+        let arrayToSort = indices.map(i => originalArray[i]);
+        let mapper = (value, i) => indices.includes(i) ? arrayToSort.shift() : value;
 
-        arrToSort.sort(this.getComparator());
+        arrayToSort.sort(this.getComparator());
         this.setArray(originalArray.map(mapper));
     }
 
