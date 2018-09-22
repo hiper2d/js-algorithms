@@ -4,10 +4,7 @@ class SmartCalculator {
         let numbers = [initialValue];
         let operators = [];
 
-        this.getNumbers = function() {
-            return numbers;
-        };
-
+        this.getNumbers = () => numbers;
         this.setNumbers = (stack) => numbers = stack;
         this.getOperators = () => operators;
         this.setOperators = (stack) => operators = stack;
