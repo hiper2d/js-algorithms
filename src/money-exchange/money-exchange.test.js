@@ -1,6 +1,6 @@
 const assert = require('assert');
 Object.freeze(assert);
-const makeExchange = require('./src/index.js');
+const makeExchange = require('./money-exchange');
 
 describe('makeExchange function', () => {
     it('should return ERROR object if the currency more than 10000', () => {
