@@ -6,3 +6,4 @@ Some tricky tasks to learn JavaScript and just fo fun
 * [Zeros](./src/zeros/): [original](https://github.com/yankouskia/zeros)
 * [Money Exchange](./src/money-exchange/): [original](https://github.com/SergeyKovalchuk/Money-Exchange)
 * [Brakets](./src/brackets/): [original](https://github.com/yankouskia/additional_5)
+* [Smart Calculator](./src/smart-calculator/): [original](https://github.com/yankouskia/smart-calculator)
