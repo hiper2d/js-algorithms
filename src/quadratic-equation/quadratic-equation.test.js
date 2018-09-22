@@ -1,6 +1,6 @@
 const assert = require('assert');
 Object.freeze(assert);
-const solveEquation = require('./src/index');
+const solveEquation = require('./quadratic-equation.js');
 
 describe('Solve quadratic equation', () => {
     it('1', () => {
