@@ -46,7 +46,7 @@ function calculateCoins(currency, coin) {
 }
 
 function calculateChange(currency, coin) {
-    return currency %  coin.denomination;
+    return currency % coin.denomination;
 }
 
 function addCoinsToResultObjectAndGetChange(returnObject, iterationResult) {
